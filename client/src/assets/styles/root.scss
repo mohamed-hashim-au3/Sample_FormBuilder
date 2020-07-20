@@ -1,0 +1,13 @@
+//base
+@import "./base/base";
+@import "./base/variables";
+
+//pages
+@import "./pages/homepage";
+@import "./pages/formaction";
+@import "./pages/viewform";
+@import "./pages/formdetails";
+//components
+@import "./components/sidebar";
+@import "./components/formcard";
+@import "./components/header";

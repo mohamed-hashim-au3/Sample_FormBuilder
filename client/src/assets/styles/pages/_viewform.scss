@@ -1,0 +1,70 @@
+.viewform {
+  padding: 36px;
+  &__container {
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: $color-white;
+    position: relative;
+
+    &-title {
+      font-size: 3.4rem;
+      text-align: center;
+      color: $color-secondary;
+    }
+    &-label {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: black;
+    }
+    &-input {
+      width: 100%;
+      background-color: transparent;
+      color: grey;
+      font-size: 2rem;
+      border: 1px solid $color-light;
+      padding: 5px 0.5em;
+      margin-bottom: 10px;
+    }
+    &-actions {
+      display: flex;
+
+      &-cancel {
+        font-size: 1.6rem;
+        padding: 0.3em 1em;
+        border-radius: 2rem;
+        color: $color-secondary;
+        border: 1px solid $color-secondary;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      &-save {
+        font-size: 1.6rem;
+        padding: 0.3em 1em;
+        border-radius: 2rem;
+        color: $color-white;
+        background-color: $color-secondary;
+        cursor: pointer;
+        margin-top: 1em;
+      }
+    }
+    &__questions {
+      font-size: 2rem;
+      color: $color-light;
+      margin: 10px 0;
+    }
+  }
+
+  .submission__container {
+    &-title {
+      font-size: 2rem;
+      color: black;
+      margin-bottom: 10px;
+    }
+    &-value {
+      font-size: 2rem;
+      color: $color-light;
+      margin-bottom: 10px;
+    }
+  }
+}

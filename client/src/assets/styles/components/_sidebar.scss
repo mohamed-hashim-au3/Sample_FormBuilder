@@ -1,0 +1,18 @@
+.sidebar {
+  background-color: $color-white;
+
+  &__title {
+    font-size: 3rem;
+    color: $color-secondary;
+    padding: 1em;
+  }
+  &__nav {
+    &-value {
+      color: $color-white;
+      background-color: $color-secondary;
+      padding: 1em;
+      cursor: pointer;
+      font-size: 2rem;
+    }
+  }
+}
