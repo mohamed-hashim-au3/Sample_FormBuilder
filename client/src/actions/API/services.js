@@ -1,4 +1,4 @@
-export var siteUrl = "http://localhost:5000/api/v1";
+export var siteUrl = "https://form-builder-sample.herokuapp.com/api/v1";
 var config = {
   form: siteUrl + "/forms",
   submission: siteUrl + "/submissions"
